@@ -71,8 +71,9 @@
     position: relative;
     top: -138px;
     width: 162px;
-    left: 255px;
+    left: 260px;
     height: 46px;
+    line-height: normal;
   }
 
   .dots {
