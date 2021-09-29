@@ -79,8 +79,8 @@
   .dots {
     display: block;
     position: absolute;
-
     left: 30px;
+    bottom: 0;
   }
   .bg-tablet {
     display: block;
@@ -97,6 +97,9 @@
 @media (min-width: 1440px) {
   section {
     padding: 261px 552px 130px 165px;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
   }
   .container {
     max-width: 723px;
@@ -117,6 +120,9 @@
   .bg-tablet {
     display: none;
   }
+  div.bg-desktop {
+    position: relative;
+  }
   .bg-desktop {
     display: block;
     position: absolute;
@@ -127,8 +133,8 @@
   }
   .dots {
     display: block;
-    bottom: 78px;
-    right: 0;
+    bottom: 84px;
+    right: 0px;
     left: unset;
   }
 }
