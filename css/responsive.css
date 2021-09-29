@@ -1,0 +1,133 @@
+@media (min-width: 768px) {
+  body {
+    background: none;
+    position: relative;
+    background-color: #121725;
+  }
+  section {
+    background-image: none;
+    padding: 260px 94px 257px 39px;
+  }
+
+  .container {
+    max-width: 635px;
+    background-color: #121725;
+    padding-bottom: 0;
+    margin: 0 0;
+  }
+
+  header {
+    padding-top: 9.3rem;
+    margin-bottom: 0;
+  }
+  .logo {
+    position: absolute;
+    top: 50px;
+    left: 39px;
+  }
+
+  h1 {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    text-align: left;
+    margin-bottom: 3.1rem;
+  }
+  p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    width: 445px;
+    text-align: left;
+  }
+  .image-wrapper {
+    padding-right: 99px;
+    margin-bottom: -16px;
+  }
+  .image-wrapper img:first-of-type {
+    width: 96px;
+  }
+  .image-wrapper img:nth-of-type(2) {
+    width: 78px;
+  }
+  .image-wrapper img:nth-of-type(3) {
+    width: 125px;
+  }
+  .image-wrapper img:last-of-type {
+    width: 129px;
+  }
+  form {
+    height: 0;
+  }
+
+  .form-control input {
+    position: absolute;
+    bottom: 87px;
+    width: 427px;
+    height: 56px;
+  }
+  .form-control small {
+    bottom: 58px;
+  }
+  .form button {
+    position: relative;
+    top: -138px;
+    width: 162px;
+    left: 255px;
+    height: 46px;
+  }
+
+  .dots {
+    display: block;
+    position: absolute;
+
+    left: 30px;
+  }
+  .bg-tablet {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    mix-blend-mode: screen;
+  }
+}
+
+@media (min-width: 1440px) {
+  section {
+    padding: 261px 552px 130px 165px;
+  }
+  .container {
+    max-width: 723px;
+  }
+  header {
+    height: 0;
+    width: 0;
+  }
+  .logo {
+    top: 102px;
+    left: 165px;
+  }
+  h1 {
+    font-size: 5.2rem;
+    line-height: 6.2rem;
+    margin-bottom: 2.4rem;
+  }
+  .bg-tablet {
+    display: none;
+  }
+  .bg-desktop {
+    display: block;
+    position: absolute;
+    top: 130px;
+    right: 0;
+    z-index: -1;
+    mix-blend-mode: screen;
+  }
+  .dots {
+    display: block;
+    bottom: 78px;
+    right: 0;
+    left: unset;
+  }
+}

@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap");
+
+/* font-family: 'Chivo', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  color: #c2cbe5;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(18, 23, 37, 0.9),
+      rgba(18, 23, 37, 0.9)
+    ),
+    url("./images/mobile/image-host.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+h1 {
+  font-size: 2.6rem;
+  line-height: 3.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
+
+h1 span {
+  color: #54e6af;
+}
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 327px;
+  text-align: center;
+  padding-bottom: 94px;
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+  padding-top: 6.2rem;
+  margin-bottom: 4.9rem;
+}
+.logo {
+  display: block;
+  width: 134.85;
+}
+p {
+  margin-bottom: 16rem;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px;
+  margin-bottom: 4.8rem;
+}
+.image-wrapper img {
+  filter: invert(42%) sepia(12%) saturate(1278%) hue-rotate(188deg)
+    brightness(90%) contrast(85%);
+}
+.image-wrapper img:first-of-type {
+  width: 56px;
+}
+.image-wrapper img:nth-of-type(2) {
+  width: 45px;
+}
+.image-wrapper img:nth-of-type(3) {
+  width: 73px;
+}
+.image-wrapper img:last-of-type {
+  width: 77px;
+}
+
+.form-control {
+  margin-bottom: 16px;
+  position: relative;
+  color: #2c344b;
+}
+
+.form-control input {
+  border: 2px solid transparent;
+  border-radius: 28px;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  background-color: #2c344b;
+  padding: 0.9rem;
+  padding-left: 3.2rem;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.form-control input:focus {
+  outline: none;
+}
+.form-control input::placeholder {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.form-control.success input {
+  border-color: #54e6af;
+}
+
+.form-control small {
+  color: #fb3e3e;
+  position: absolute;
+  bottom: -22px;
+  left: 32px;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #54e6af;
+  border: 2px solid #54e6af;
+  border-radius: 28px;
+  color: #121725;
+  font-weight: bold;
+  display: block;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  padding: 9px 0;
+  width: 100%;
+  box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);
+}
+.form button:active {
+  background-color: #b3ffe2;
+  border-color: #b3ffe2;
+}
+.d-none {
+  display: none;
+}
